@@ -50,13 +50,13 @@ export function createAppData() {
 		snackbar: { show: false, message: '' },
 		audioUnlockPendingId: null as string | null,
 		radio: {
-			centerFreq: 100.0,
+			centerFreq: 867.0,
 			frequencyShift: 0.0,
 			sampleRate: 20000000,
 			fftSize: DEFAULT_FFT_SIZE,
 		},
 		display: {
-			spectrumFps: 20,
+			spectrumFps: 60,
 			highResolutionWaterfall: true,
 			sharedChannelization: true,
 			...DEFAULT_SPECTRUM_RANGE,
